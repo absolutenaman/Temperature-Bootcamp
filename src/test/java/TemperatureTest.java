@@ -25,4 +25,9 @@ public class TemperatureTest {
         Temperature temperature = celsius(0);
         assertEquals(kelvin(273.15), temperature);
     }
+    @Test
+    public void test4() {
+        Temperature temperature = celsius(10);
+        assertEquals(fahrenheit(50), temperature);
+    }
 }
